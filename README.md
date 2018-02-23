@@ -12,6 +12,14 @@ Experiment with:
   * Prettier code formatter
   * ESLint with airbnb-base
 
+This app can get the MAC address for a network interface that has not been assigned an IP address.
+
+That differs from os.networkInterfaces() in the Node API:
+
+    https://nodejs.org/api/os.html#os_os_networkinterfaces
+
+    The os.networkInterfaces() method returns an object containing only network interfaces that have been assigned a network address.
+
 Use yarn to install packages:
 
     [jfathman@debian getmac]$ yarn install
