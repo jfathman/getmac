@@ -14,9 +14,7 @@ Experiment with:
 
 This app can get the MAC address for a network interface that has not been assigned an IP address.
 
-That differs from os.networkInterfaces() in the Node API:
-
-  [os.networkInterfaces()](https://nodejs.org/api/os.html#os_os_networkinterfaces)
+That differs from [os.networkInterfaces()](https://nodejs.org/api/os.html#os_os_networkinterfaces) in the Node API:
 
     The os.networkInterfaces() method returns an object containing
     only network interfaces that have been assigned a network address.
