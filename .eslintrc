@@ -1,0 +1,37 @@
+env:
+  node: true
+  es6: true
+extends:
+  - airbnb-base
+  - eslint-config-prettier
+plugins:
+  - eslint-plugin-prettier
+parserOptions:
+  sourceType: script
+rules:
+  strict:
+    - error
+    - safe
+  indent:
+    - error
+    - 4
+    - SwitchCase: 1
+  quotes:
+    - error
+    - single
+  linebreak-style:
+    - error
+    - unix
+  semi:
+    - error
+    - always
+  no-console:
+    - off
+  no-underscore-dangle:
+    - off
+  no-bitwise:
+    - off
+  no-param-reassign:
+    - off
+  no-plusplus:
+    - off
