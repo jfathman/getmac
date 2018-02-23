@@ -16,9 +16,10 @@ This app can get the MAC address for a network interface that has not been assig
 
 That differs from os.networkInterfaces() in the Node API:
 
-    https://nodejs.org/api/os.html#os_os_networkinterfaces
+    [os.networkInterfaces()](https://nodejs.org/api/os.html#os_os_networkinterfaces)
 
-    The os.networkInterfaces() method returns an object containing only network interfaces that have been assigned a network address.
+    The os.networkInterfaces() method returns an object containing
+    only network interfaces that have been assigned a network address.
 
 Use yarn to install packages:
 
